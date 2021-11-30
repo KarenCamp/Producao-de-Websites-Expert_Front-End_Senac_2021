@@ -1,0 +1,3 @@
+1 - Faça uma seleção do que você deseja colorir
+2 - Na paleta camadas, na parte debaixo, clique em "Criar nova camada de Matiz Saturação"
+3- Clique no flag Colorir e escolha a cor de sua preferência em MATIZ, e a intensidade da cor em Saturação

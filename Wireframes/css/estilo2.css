@@ -1,0 +1,60 @@
+    * { margin: 0px;
+	    padding: 0px; }
+
+	#container { width: 1000px;
+	             margin: 0 auto;
+	             height: auto; /* lance de rolamento de página e 
+	         ajuste automático */ }
+
+	header { width: 1000px;
+	         height: 150px;
+	         background-color: #17A377
+	       }
+
+	.banner { width: 1000px;
+	          height: 150px;
+	          background-color: #EDEDED }
+
+	.fotos { width: 1000px;
+	         height: 300px;
+	         background-color: red }
+
+	/* Caixas da Section Fotos */
+    .caixaesq { width: 500px;
+                height: 300px;
+                background-color: #53DC84;
+                float: left; }
+
+    .caixa1 { width: 250px;
+              height:150px;
+              background-color: gray;
+              float: left;  }
+
+    .caixa2 { width: 250px;
+              height:150px;
+              background-color: #17A377; 
+              float: left; }
+
+    .caixa3 { width: 250px;
+              height:150px;
+              background-color: #33F9E3;
+              float: left;  }
+
+    .caixa4 { width: 250px;
+              height:150px;
+              background-color: #53DC84;
+              float: left;  }
+
+    /* Fim das Caixas da Section Fotos */
+
+	.servicos { width: 1000px;
+	            height: 150px;
+	            background-color: #EDEDED }
+
+	footer { width: 1000px;
+	         height: 150px;
+	         background-color: #17A377 }
+
+
+
+

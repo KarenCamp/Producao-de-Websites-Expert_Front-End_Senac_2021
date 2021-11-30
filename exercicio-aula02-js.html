@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Aula 02 - JS</title>
+<style>
+    h1 { color: white; text-shadow: 4px 2px 1px black;}
+    h2 { color: chartreuse; text-shadow: 4px 2px 1px black;}
+    body { background-color: seagreen; font-size: 22px;}
+    u { color: gainsboro; font-size: 26px;}
+    span { font-size: 26px; color: gainsboro;}
+    .classsilvio { color: white; font-size: 23px;}
+    .atencao { font-size: 27px; color: black;}
+</style></head>
+<body>
+    <h1>Exercitando códigos da segunda aula</h1>
+    <h2>Bom te ver aqui, novamente!</h2>
+    <script>
+        var curso = 'Produção de Websites Expert - Front End' //tipo string
+        var quantidade_de_aulas = 34 //tipo number
+        var aulas_ja_realizadas = 12 //tipo number
+        var freq_min_75_por_cento = true //tipo boolean
+        window.alert("Que maravilhosa experiência estamos vivenciando neste período, graças a esta abençoada oportunidade do Senac!")
+        window.document.write("<strong><i>Contemplados com o curso:<u> " + curso + "</u>, ainda nos restam<span> " + (quantidade_de_aulas - aulas_ja_realizadas) + "</span> aulas para desfrutarmos juntos, enriquecendo nosso aprendizado e cotidiano simbolicamente!</i></strong><br>")
+        window.document.write(`<br><strong>O tipo da variável <mark>quantidade_de_aulas</mark> é <i>"${typeof(quantidade_de_aulas)}"</i>, assim como na variável <mark>aulas_ja_realizadas</mark> também é <i>"${typeof(aulas_ja_realizadas)}"</i>, por isso conseguimos realizar o cálculo das aulas restantes, <span class="atencao">atente-se a isto!</span> Se fosse do tipo <i>"${typeof(curso)}"</i>, assim como na variável <mark style="background:orange">curso</mark>, não conseguiríamos, não é mesmo, <span class="classsilvio">professor Sílvio?</span> Atente-se também às faltas que você poderá ter, para receber o certificado você deverá atingir a frequência mínima de <span>75%</span> no curso, <i>this is ${freq_min_75_por_cento}, so careful...</i> Quanto a mim faço de tudo para não perder um segundo sequer das aulas, se Deus me permitir certamente não chegarei nem perto destes condenados 25% de ausências, hahaha...</strong>`)
+    </script>
+</body>
+</html>
