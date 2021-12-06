@@ -1,0 +1,1 @@
+Tendo nosso primeiro contato com Lightbox, que viria a ser utilizado na galeria do nosso site Academia Interação.
